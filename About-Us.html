@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about us page</title>
+    <link rel="stylesheet" href="about.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+        <nav class="navbar" style="position: relative; top: 0;">
+        <div class="logo"><i class="fa-solid fa-graduation-cap cap"></i><h1>EduLearn</h1></div>
+        <ul class="nav-links">
+            <li><a href="project.html" class="nav-link">Home</a></li>
+            <li><a href="About-Us.html" class="nav-link">About Us</a></li>
+            <li><a href="#classes-section" class="nav-link">Get Notes</a></li>
+            <li><a href="#Contact" class="nav-link">Contact</a></li>
+            <li><a href="login.html" class="btn" class="nav-link">Login</a></li>
+            <li><i class="fa-solid fa-bars" id="menu" onclick="openSidebar()" style="display: none;"></i></li>
+        </ul>
+        <i class="fa-solid fa-bars menu" onclick="openSidebar()"></i>
+    </nav>
+
+    <!-- sidebar -->
+    <nav class="sidebar">
+        <ul id="sidebar">
+            <li><i class="fa-solid fa-xmark" onclick = "closeSidebar()"></i></li>
+            <li><a href="#" class="nav-link">Home</a></li>
+            <li><a href="About-Us.html" class="nav-link">About Us</a></li>
+            <li><a href="#classes-section" class="nav-link">Get Notes</a></li>
+            <li><a href="#Contact" class="nav-link">Contact</a></li>
+            <li><a href="#login" class="btn" class="nav-link">Login</a></li>
+        </ul>
+    </nav>
+
+    <!-- main section -->
+     <main>
+            <div class="about-us-box"  style="text-align: center;">
+                    <div class="about" id="Haripriya">
+                        <h2>Haripriya</h2>
+                        <p>Create thinker and team leader</p>
+                    </div>
+                    <div class="about" id="Haripriya">
+                        <h2>Sakshi</h2>
+                        <p>Desinger with innovative ideas.</p>
+                    </div>
+                    <div class="about" id="Haripriya">
+                        <h2>Puja</h2>
+                        <p>Organized and detail-oriented member.</p>
+                    </div>
+                    <div class="about" id="Haripriya">
+                        <h2>Kajal</h2>
+                        <p>Strategy planner and problem solver.</p>
+                    </div>
+                </div>
+     </main>
+
+     <!-- footer -->
+     <footer>
+         <div class="footer-1">
+             <div class="footer-icons">
+                 <a href=""><i class="fa-brands fa-facebook footer-icon"></i></a>
+                 <a href=""><i class="fa-brands fa-instagram footer-icon"></i></a>
+                 <a href=""><i class="fa-brands fa-twitter footer-icon"></i></a>
+                 <a href=""><i class="fa-brands fa-linkedin footer-icon"></i></a>
+                 <a href=""><i class="fa-brands fa-youtube footer-icon"></i></a>
+             </div>
+             <div class="footer-text">
+                <a href="#home">Home</a>
+                <a href="#About">About</a>
+                <a href="#Contact Us">Contact Us</a>
+                <a href="#Our Team">Our Team</a>
+             </div>
+         </div><br>
+       <div class="footer-2 copyright">
+           <p>copyright &copy;Designed by Haripriya, Sakshi, Puja and Kajal</p>
+       </div>
+     </footer>
+
+     <script src="script.js"></script>
+</body>
+</html>

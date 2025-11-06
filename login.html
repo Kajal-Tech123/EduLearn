@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo"><i class="fa-solid fa-graduation-cap cap"></i><h1>EduLearn</h1></div>
+        <ul class="nav-links">
+            <li><a href="#" class="nav-link">Home</a></li>
+            <li><a href="About-Us.html" class="nav-link">About Us</a></li>
+            <li><a href="#classes-section" class="nav-link">Get Notes</a></li>
+            <li><a href="#Contact" class="nav-link">Contact</a></li>
+            <li><a href="#login" class="btn" class="nav-link">Login</a></li>
+            <li><i class="fa-solid fa-bars" id="menu" onclick="openSidebar()" style="display: none;"></i></li>
+        </ul>
+        <i class="fa-solid fa-bars menu" onclick="openSidebar()"></i>
+    </nav>
+
+    <!-- sidebar -->
+    <nav class="sidebar">
+        <ul id="sidebar">
+            <li><i class="fa-solid fa-xmark" onclick = "closeSidebar()"></i></li>
+            <li><a href="project.html" class="nav-link">Home</a></li>
+            <li><a href="About-Us.html" class="nav-link">About Us</a></li>
+            <li><a href="#classes-section" class="nav-link">Get Notes</a></li>
+            <li><a href="#Contact" class="nav-link">Contact</a></li>
+            <li><a href="#login" class="btn" class="nav-link">Login</a></li>
+        </ul>
+    </nav>
+
+    <!-- main -->
+     <main>
+        <div class="container">
+            <h1>Login</h1>
+            <form action="/">
+                <label for="username">Username</label><br>
+                <input type="text" id="username" required><br>
+                <label for="password">Password</label><br>
+                <input type="password" id="password" required><br>
+                <span><a href="">Forgot Password</a></span>
+                <button>Login</button>
+            </form>
+        </div>
+     </main>
+</body>
+</html>
